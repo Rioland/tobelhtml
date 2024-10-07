@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand img {
+      padding-left: 10px; 
+      width: 100%; 
+      height: 35px;
+    }
+    .description {
+      background-color: #001f3f; 
+      color: white;
+      padding: 20px;
+      height: 100%;
+    }
+    .custom-row {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .custom-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+    .custom-img1{
+      width: 80px;
+      height: 80px;
+      margin-top: 60px;
+      margin-left: 30px;
+    }
+    .align-middle {
+      display: flex;
+      align-items: center; 
+      height: 100%; 
+    }
+    .row.equal-height {
+      height: 500px; 
+    }
+    .text{
+      color: green;
+      font-weight: 900;
+    }
+    .button{ 
+      margin-left: 700px;
+    }
+    .btn{
+      border-radius: 50px;
+      font-weight: 500;
+    }
+
+    .card {
+      overflow: hidden; 
+    }
+
+    .card img {
+      transition: transform 0.3s ease-in-out; 
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card:hover img {
+      transform: scale(1.1); 
+    }
+
+    .card-container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .taller-card {
+      height: 300px; 
+    }
+
+    .standard-card {
+      height: 180px; 
+    }
+
+    .yes{
+      background-color: rgb(128, 15, 209);
+      padding-top: 80px;
+      padding-bottom: 20px;
+    }
+
+    .card-body {
+      text-align: center; 
+      padding-top:0px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .okay{
+        margin-left: 120px;
+
+    }
+    .light{
+      background-color:rgb(212, 208, 208);
+    }
+   
+    .inline-flex {
+      display: flex;
+      align-items: center; 
+      justify-content: flex-start; 
+    }
+
+    .inline-flex h3 {
+      margin-left: 15px; 
+      font-size: 1.5rem;
+      margin-top:60px;
+      color: darkgreen;
+      font-weight: 700;
+    }
+    .inline-flex , p {
+     font-weight: 500;
+    }
+    .description2 {
+      padding: 20px;
+      height: 100%; 
+    }
+    
+
+    .carousel {
+      width: 100%; 
+      height: 100%; 
+    }
+
+    .carousel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+
+    .equal-height {
+      height: 500px; 
+    }
+
+    .custom-row {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    
+    .g-0 {
+      gap: 0; 
+    }
+
+    
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%; 
+    }
+
+    .last{
+     margin-top: 90px;
+     text-align: center;
+     color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/1.png" alt="Logo">
+      </a>
+      
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   
+   <div class="container custom-row">
+    <div class="row align-items-center g-0 equal-height">
+      <div class="col-md-4 description d-flex flex-column justify-content-center">
+        <h2>Tobello Global Resources Ltd</h1> 
+        <h3>Exporters and Importers</h2>
+        <p>
+          We are recognized as global leaders in the manufacturing and export of bovine products, 
+          agricultural commodities, and organic foods. Our commitment to excellence is underscored by our 
+          EU Import/Export License, highlighting our dedication to adhering to stringent international standards.
+        </p>
+      </div>
+      
+      <!-- Right side: image -->
+      <div class="col-md-8 align-middle">
+        <img src="./images/2.png" class="custom-img" alt="Sample Image">
+      </div>
+    </div>
+  </div>
+
+   <!-- Second row  -->
+   <div class="container custom-row">
+    <div class="row align-items-center g-0 equal-height">
+      <div class="col-md-8 description1 d-flex flex-column justify-content-center">
+       <h5> Welcome to TOBELLO</h5>
+       <h1 class="text">
+        One of Nigeria's Leading <br>
+        Export and Import <br>
+         Service Providers
+       </h1> 
+        <p>
+          We are involved in the international trade of Agro Agricultural Products and <br>
+          Foodstuffs (such as Fresh Honey and beeswax, Natural Sesame Seed <br>
+          (White/Brown 98 percent Cleaned), Ginger-Cleaned DrySplit/Slice, Garlic, Gum <br>
+           Arabic-1,2 & 3, Cassava Chips/Starch/Flour, Shea Butter/Nut, Groundnut <br>
+            (Peanut)). However, we are currently focused on the collection and export of <br>
+            cattle horns and hooves (Bovine) for organic fertilizer. It is a rapidly expanding <br>
+             industry in Europe and Asia.... We produce large amounts of crushed horns and <br>
+              hooves for such an organic fertilizer industry.
+        </p>
+      </div>
+      <div class="col-md-4 align-middle">
+        <img src="./images/3.png" class="custom-img" alt="Sample Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="button">
+    <button class="btn btn-center btn-success">View Products</button>
+  </div>
+
+  <br>
+
+  <div class="yes">
+    <h3 class="okay text-warning">Coming Soon</h3>
+    <div class="container card-container">
+      <div class="row">
+
+        <!-- First Card -->
+        <div class="col-md-3 mb-2">
+          <div class="card standard-card">
+            <img src="./images/4.jpg" class="img-fluid" alt="Card 1">
+          </div>
+          <div class="card-body bg-white p-3">
+            <h5 class="card-title">Cocoa Beans</h5>
+          </div>
+        </div>
+        
+        <!-- Second Card -->
+        <div class="col-md-3 mb-2">
+          <div class="card standard-card">
+            <img src="./images/5.jpg" class="img-fluid" alt="Card 2">
+          </div>
+          <div class="card-body bg-white p-3">
+            <h5 class="card-title">Dry Ginger Powder</h5>
+          </div>
+        </div>
+
+        <!-- Third Card (Taller) -->
+        <div class="col-md-3 mb-2">
+          <div class="card taller-card">
+            <img src="./images/6.jpg" class="img-fluid" alt="Card 3">
+            
+          </div>
+          <div class="card-body bg-white p-3">
+            <h5 class="card-title">Feather Meal Powder</h5>
+          </div>
+        </div>
+
+        <!-- Fourth Card (Taller) -->
+        <div class="col-md-3 mb-2">
+          <div class="card taller-card">
+            <img src="./images/7.jpg" class="img-fluid" alt="Card 4">
+          </div>
+          <div class="card-body bg-white p-3">
+            <h5 class="card-title">Bone Meal Powder</h5>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  
+
+
+
+ 
+  <div class="light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="inline-flex">
+            <img src="./images/8.png" class="custom-img1" alt="Logo">
+            <h3>Mission</h3>
+          </div>
+          <p>To Promote International Trade and Significantly contribute to the growth <br>
+            of Nigerian GDP(Gross Domestic Product) Through Trade Education, Trade <br>
+             Enhancement, and Trade Execution. <br><br>
+
+             To exceed the customers expectations by providing quality product and
+             exceptional customer care services in a loving and caring way.
+         </p>
+        </div>
+
+        
+        <div class="col-md-6">
+          <div class="inline-flex">
+            <img src="./images/9.png" class="custom-img1" alt="Sample Image">
+            <h3>Vision</h3>
+          </div>
+          <p>
+            To provide exceptional Exportation services in a desirable and conducive <br>
+             sales environment while facilitating the growth of and investment in Nigeria by <br>
+             delivering intelligent, reliable, and seamless export solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container custom-row">
+    <div class="row align-items-center g-0 equal-height">
+      <div class="col-md-8 description2 d-flex flex-column justify-content-center">
+        <h1 class="text">Why Choose Us</h1>
+        <br>
+        <p>
+          Tobello Global Resources is fully involved in the exportation of agricultural commodities <br>
+          through the use of contemporary automated processes and qualified personnel.
+        </p>
+        <br><br><br>
+        <h5>The Benefits of our products and services are:</h5>
+        <ol>
+          <li>High Quality and variety of products</li>
+          <li>Prompt Delivery Services</li>
+          <li>Best Management of goods</li>
+          <li>Integrated Exports</li>
+          <li>Excellent Customer Care services</li>
+          <li>Fair and best possible prices</li>
+        </ol>
+      </div>
+
+      <!-- Right side: 4-slide carousel -->
+      <div class="col-md-4">
+        <div id="imageCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+          <div class="carousel-inner h-100">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <img src="./images/10.png" class="d-block w-100" alt="Image 1">
+            </div>
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <img src="./images/11.png" class="d-block w-100" alt="Image 2">
+            </div>
+            <!-- Third Slide -->
+            <div class="carousel-item">
+              <img src="./images/12.png" class="d-block w-100" alt="Image 3">
+            </div>
+            <!-- Fourth Slide -->
+            <div class="carousel-item">
+              <img src="./images/13.png" class="d-block w-100" alt="Image 4">
+            </div>
+             <!-- Fifth Slide -->
+             <div class="carousel-item">
+              <img src="./images/14.png" class="d-block w-100" alt="Image 4">
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-primary last">
+    <p class="last">
+        privacy policies <span>Terms And Condition</span>
+    </p>
+    © 2020 Tobello Global Resources | Powered by <span>Triz Global</span>
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

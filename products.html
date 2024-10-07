@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-color: rgb(235, 241, 240);
+    }
+    .navbar-brand img{
+      padding-left: 10px; 
+      width: 100%; 
+      height: 35px;
+    }
+    
+    .image-row img {
+      width: 90%;
+      object-fit: cover;
+    }
+
+    /* Height for the taller images */
+    .tall-image {
+      height: 400px;
+    }
+    .talls-image {
+      height: 250px;
+    }
+    .slide-image{
+      height: 200px;
+    }
+
+    /* Height for the normal images */
+    .normal-image {
+      height: 150px;
+    }
+
+    /* Padding for the description text */
+    .image-description {
+      padding: 10px 0;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    
+.image-row img {
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.image-row img:hover {
+  transform: scale(1.1); 
+}
+.last{
+  margin-left: 100px;
+}
+.lasts{
+  margin-top: 30px;
+  display: flex;
+}
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/1.png" alt="Logo">
+      </a>
+      
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2>Bovine Products</h2>
+    <p>
+      As a worldwide industry leader in the manufacturing and exportation of bovine products, we proudly hold an EU Import/Export License. Our bovine <br>
+       products, renowned for their high calcium and potassium content, are the ideal choice for organic fertilizer production.
+    </p>
+    <div class="row lasts">
+      <!-- Left Column (md-6) -->
+      <div class="col-md-3">
+        <h2></h2>
+      </div>
+
+      <!-- Right Column with Two Sections (Images) -->
+      <div class="col-md-9">
+        <!-- First row of 3 taller images with descriptions -->
+        <div class="row image-row mb-4">
+          <div class="col-md-4">
+            <img src="./products images/1.png" alt="Image 1" class="img-fluid tall-image">
+            <div class="image-description">Image 1 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/2.png" alt="Image 2" class="img-fluid tall-image">
+            <div class="image-description">Image 2 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/3.png" alt="Image 3" class="img-fluid tall-image">
+            <div class="image-description">Image 3 Description</div>
+          </div>
+        </div>
+
+        <!-- Second row of 3 normal height images with descriptions -->
+        <div class="row image-row ">
+          <div class="col-md-4">
+            <img src="./products images/4.png" alt="Image 4" class="img-fluid normal-image">
+            <div class="image-description">Image 4 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/5.png" alt="Image 5" class="img-fluid normal-image">
+            <div class="image-description">Image 5 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/6.png" alt="Image 6" class="img-fluid normal-image">
+            <div class="image-description">Image 6 Description</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <h2>Agro Products</h2>
+    <div class="row lasts">
+      <!-- Left Column (md-6) -->
+      <div class="col-md-3">
+        <h2></h2>
+      </div>
+
+      <!-- Right Column with Two Sections (Images) -->
+      <div class="col-md-9">
+        <!-- First row of 3 taller images with descriptions -->
+        <div class="row image-row mb-4">
+          <div class="col-md-4">
+            <img src="./products images/7.png" alt="Image 1" class="img-fluid talls-image">
+            <div class="image-description">Image 7 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/8.png" alt="Image 2" class="img-fluid talls-image">
+            <div class="image-description">Image 8 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/9.png" alt="Image 3" class="img-fluid talls-image">
+            <div class="image-description">Image 9 Description</div>
+          </div>
+        
+          <div class="col-md-4">
+            <img src="./products images/10.png" alt="Image 4" class="img-fluid talls-image">
+            <div class="image-description">Image 10 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/11.png" alt="Image 5" class="img-fluid talls-image">
+            <div class="image-description">Image 11 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/12.png" alt="Image 6" class="img-fluid talls-image">
+            <div class="image-description">Image 12 Description</div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="./products images/13.png" alt="Image 4" class="img-fluid talls-image">
+            <div class="image-description">Image 13 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/14.png" alt="Image 5" class="img-fluid talls-image">
+            <div class="image-description">Image 14 Description</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./products images/15.png" alt="Image 6" class="img-fluid talls-image">
+            <div class="image-description">Image 15 Description</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row image-row last container ">
+    <h2>Coming Soon</h2> 
+    <div class="lasts">
+    <div class="col-md-3">
+      <img src="./products images/10.png" alt="Image 4" class="img-fluid normal-image">
+      <div class="image-description">Image 1 Description</div>
+    </div>
+    <div class="col-md-3">
+      <img src="./products images/11.png" alt="Image 5" class="img-fluid normal-image">
+      <div class="image-description">Image 2 Description</div>
+    </div>
+    <div class="col-md-3">
+      <img src="./products images/12.png" alt="Image 6" class="img-fluid slide-image">
+      <div class="image-description">Image 3 Description</div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="./products images/13.png" alt="Image 4" class="img-fluid slide-image">
+      <div class="image-description">Image 4 Description</div>
+    </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
